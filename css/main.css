@@ -1,0 +1,120 @@
+body{
+	background-color: #b8b894;
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+
+/*--layout--*/
+body{
+	display: grid;
+ 	grid-template-areas: 
+ 	"fejlec"
+ 	"kontent"
+ 	"lablec"
+;
+grid-template-rows: max-content 1fr max-content;
+min-height: 100vh;
+
+}
+header{
+	background-color: #e6e6e6;
+	grid-area: fejlec;
+}
+main{
+	
+	grid-area: kontent;
+}
+.kezdoszoveg{
+	
+	margin-top: 18rem;
+	font-size: 4rem;
+	margin-left: 2rem;
+	color: white;
+	
+	
+
+}
+.kezdoidezet{
+	margin-left: 66rem;
+	margin-top: 8rem;
+	font-size: 2rem;
+	font-family: Agency FB;
+
+
+}
+.rolamszoveg{
+	margin-top: 5rem;
+	margin-left: 3rem;
+	font-size: 2.5rem;
+
+}
+.rolamszovegszakmai{
+	margin-top: 5rem;
+	margin-left: 3rem;
+	font-size: 2.5rem;
+}
+.munkaimszoveg{
+	margin-top: 15rem;
+	margin-left: 3rem;
+	font-size: 2.5rem;
+
+}
+.dokszoveg{
+	margin-left: 3rem;
+	margin-right: 3rem;
+	font-size: 2rem;
+}
+
+
+footer{}
+
+
+
+
+header{
+	line-height: 3rem;
+	font-size: 2rem;
+	text-align: right;
+	padding: .75rem 1rem;
+	color: black;
+}
+.header_kezdooldal{
+	line-height: 3rem;
+	font-size: 2rem;
+	padding: .75rem 1rem;
+	text-align: right;
+	color: black;
+
+
+}
+.header_jobb{
+	text-align: right;
+	
+}
+.header_bal{
+	float: left;
+	text-align: left;
+}
+.header_rolam{
+	color: black;
+	padding: .75rem 1rem;
+}
+.header_munkaim{
+	color: black;
+	padding: .75rem 1rem
+}
+.header_dok{
+	color: black;
+}
+
+
+
+
+
+
